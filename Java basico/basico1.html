@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sistema de leitura de idade </title>
+</head>
+<body>
+    <script>
+    
+        let mes 
+        let ano
+        let dia 
+
+        ano = parseFloat(prompt("Digite quantos anos você tem: " + ano))
+
+        mes = parseFloat(prompt("Quantos meses? : " + mes ))
+        dia = parseFloat(prompt("E quantos dias?: " + dia));
+
+        let valor_final = (ano * 365) + (mes * 30) + dia
+
+        alert("O valor final obtido é igual à: " + valor_final);
+
+    </script>
+
+</body>
+</html>
