@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> leitura de dois valores </title>
+</head>
+<body>
+    <h1> Algoritmo de leitura  </h1>
+   <script>
+
+    let valor1 = parseFloat(prompt("Digite o primeiro valor:"))
+    let valor2 = parseFloat(prompt("Digite o segundo valor: "))
+
+    if(valor2 <= 0){
+        document.write("Esse valor não pode ser lido")
+    }
+
+    else if (valor2 >= 0) { 
+        let divisao = valor1 / valor2
+        document.write("O resultado desse algoritmo é igua á " + divisao)
+    }
+    </script> 
+
+</body>
+</html>

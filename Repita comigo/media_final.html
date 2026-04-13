@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>  Média final </title>
+</head>
+<body>
+    <script>
+
+        let nota1 = parseFloat(prompt("Digite a 1° nota do Bimestre: "))
+        let nota2 = parseFloat(prompt("Digite a 2° nota do Bimestre: "))
+        let aluno2 = parseFloat(alert("Calcular a média de outro aluno Sim/Não?"))
+        let media = (nota1 + nota2) / 2 
+
+        if(media < 9.5 ){
+            document.write("A média final desse aluno é " + media + " então, ele(a) está reprovado(a)")
+        }
+
+        else  { 
+              document.write("A média final desse aluno é " + media + " então, ele(a) está aprovado(a)")
+        }
+
+    </script>
+
+</body>
+</html>

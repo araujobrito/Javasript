@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Leitura de notas </title>
+</head>
+<body>
+    <script>
+
+        let nota1, nota2, nota3, nota4, nota5, nota6;
+
+        while (true) {
+            nota1 = parseFloat(prompt("Escreva sua 1° nota (0 a 10): "));
+
+            if (nota1 >= 0 && nota1 <= 10) 
+            
+            break;
+
+            alert("Nota inválida! Digite um valor entre 0 e 10.");
+        }
+
+        while (true) {
+            nota2 = parseFloat(prompt("Escreva sua 2° nota (0 a 10): "));
+
+            if (nota2 >= 0 && nota2 <= 10) 
+
+            break;
+
+            alert("Nota inválida! Digite um valor entre 0 e 10.");
+        }
+
+        while (true) {
+            nota3 = parseFloat(prompt("Escreva sua 3° nota (0 a 10): "));
+            if (nota3 >= 0 && nota3 <= 10) 
+
+            break;
+
+            alert("Nota inválida! Digite um valor entre 0 e 10.");
+        }
+
+        while (true) {
+
+            nota4 = parseFloat(prompt("Escreva sua 4° nota (0 a 10): "));
+
+            if (nota4 >= 0 && nota4 <= 10) 
+
+            break;
+
+            alert("Nota inválida! Digite um valor entre 0 e 10.");
+        }
+
+        while (true) {
+            nota5 = parseFloat(prompt("Escreva sua 5° nota (0 a 10): "));
+
+            if (nota5 >= 0 && nota5 <= 10) 
+
+            break;
+
+            alert("Nota inválida! Digite um valor entre 0 e 10.");
+        }
+
+        while (true) {
+            nota6 = parseFloat(prompt("Escreva sua 6° nota (0 a 10): "));
+
+            if (nota6 >= 0 && nota6 <= 10) 
+
+            break;
+
+            alert("Nota inválida! Digite um valor entre 0 e 10.");
+        }
+
+        let media = (nota1 + nota2 + nota3 + nota4 + nota5 + nota6) / 6;
+        
+        alert("A média das notas é: ${media.toFixed(2)}");
+        
+    </script>
+    
+</body>
+</html>

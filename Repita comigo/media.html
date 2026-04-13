@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Calculo da média </title>
+</head>
+<body>
+    <h1> Calculo da média  </h1>
+    <script>
+
+        let numero1 = parseFloat(prompt("Escreva um valor inteiro: "))
+        let numero2 = parseFloat(prompt("Escreva um segundo valor inteiro:"))
+        let media = (numero1 + numero2) / 2 
+
+        if (numero1 < numero2){
+            document.write("Valor invalido! <br> o primeiro numero precisa ser maior que o segundo.")
+        }
+
+        else{
+            document.write("O resultado é igual á " + media)
+        }
+
+    </script>
+</body>
+</html>
