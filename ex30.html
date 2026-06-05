@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> do while</title>
+</head>
+<body>
+
+    <h1> do while</h1>
+
+     <script>
+        
+       let nome 
+       idade
+       total = 0, 
+       qtd = 0;
+
+        do {
+             nome = prompt("Nome (ou 'fim'):");
+
+        if (nome !== "fim") {
+
+        idade = Number(prompt("Idade:"));
+
+        total += idade;
+
+        qtd++;
+      }
+
+        } while (nome !== "fim");
+
+        media = total / qtd
+
+        document.write("Média final: " + (media).toFixed(2));
+
+     </script>
+</body>
+</html>

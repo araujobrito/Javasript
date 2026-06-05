@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Divisores de um Número Inteiro </title>
+</head>
+<body>
+    <h1>  </h1> 
+
+    <script>
+
+        let numero1 = Number(prompt("Digite um número inteiro: "))
+        let divisor = 1;
+
+        while(divisor <= numero1){
+            if(numero1 % divisor === 0){
+                document.write(divisor + "<br>")
+        }
+        
+        document.write("Os divisores desse número são: " + divisor)
+
+        divisor++
+        }
+
+    </script>
+    
+</body>
+</html>

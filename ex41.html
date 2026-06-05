@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Numeros pares</title>
+</head>
+<body>
+
+    <h1> Numeros pares entre 1 e o numero lido </h1>
+
+     <script>
+        
+      let limite = Number(prompt("Até quanto:"));
+        let soma = 0;
+        for (let i = 1; i <= limite; i++) { if (i % 2 === 0) soma += i; }
+        document.write("Soma: " + soma);
+
+     </script>
+</body>
+</html>

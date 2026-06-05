@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> idade</title>
+</head>
+<body>
+
+    <h1> lendo a idade de pessoas </h1>
+
+   <script>
+    let nome; 
+    let soma = 0;
+    let qtd = 0; 
+
+    for(;;) {
+        nome = prompt("Digite o nome (ou 'fim' para sair):");
+
+        if (nome === "fim") {
+            break; 
+        }
+
+        let idade = Number(prompt("Digite a idade de " + nome + ":"));
+
+        soma += idade;
+        qtd++; 
+    }
+
+
+    if (qtd > 0) {
+        document.write("Média das idades: " + (soma / qtd).toFixed(2));
+    } else {
+        document.write("Nenhum dado inserido.");
+    }
+</script>
+
+</body>
+</html>

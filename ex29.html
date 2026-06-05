@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> fatorial de numeros </title>
+</head>
+<body>
+
+    <h1>calculo fatorial do numeros inteiros </h1>
+
+     <script>
+        
+      let fat = Number(prompt("Fatorial de:"));
+
+        let res = 1;
+
+        do {
+          if (fat === 0) break;
+
+            res *= fat;
+
+            fat--;
+
+            } while (fat > 0);
+
+            document.write("Fatorial: " + res);
+
+     </script>
+</body>
+</html>

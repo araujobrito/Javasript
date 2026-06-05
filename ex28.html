@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Inteiros </title>
+</head>
+<body>
+
+    <h1>programa de numeros inteiros </h1>
+
+     <script>
+        
+       let valor = Number(prompt("Digite um número:"));
+       
+    do {
+         document.write((valor % 10) + "<br>");
+
+         valor = Math.floor(valor / 10);
+
+        } while (valor > 0);
+
+     </script>
+</body>
+</html>

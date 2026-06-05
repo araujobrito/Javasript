@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sequencia de fibonacci </title>
+</head>
+<body>
+    <h1> Sequencia de fibonacci </h1> 
+
+    <script>
+        let numero_atual = 0 
+        let numero_anterior = 1
+        let proximo_numero = 3 
+
+        let fibonacci = Number(prompt("Para ver a sequencia, digite um valor inteito: "))
+
+        while(numero_atual <= fibonacci){
+            document.write(numero_atual + "<br>")
+
+            let proximo_numero = numero_atual + numero_anterior; 
+            numero_anterior = numero_atual;
+            numero_atual = proximo_numero;
+            }
+            
+    </script>
+</body>
+</html>

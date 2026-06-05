@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Nome e Idade</title>
+</head>
+<body>
+
+    <h1>nome e idade de 5 pessoas </h1>
+
+     <script>
+
+        let media = 0
+        let soma = 0
+        let quant = 5 
+
+        do{
+
+        soma = soma + quant
+        media = soma / 5 
+
+        let nome = prompt("Qual é o seu nome?")
+        let idade = parseInt(prompt("Quantos anos você tem?")) 
+        Quant++
+
+        } while (quant < 5)
+
+        document.write("O valor da média final é " + media + "<br>")
+     </script>
+</body>
+</html>

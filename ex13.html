@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> impressões </title>
+</head>
+<body>
+    <h1> imprimindo digitos  </h1>
+    
+    <script>
+
+        let numero = Number(prompt("Digite um numero inteiro: "))   
+    
+
+        while (numero > 0){
+
+        let digito = numero % 10;
+        document.write("O(s) digito(s): " + digito + "<br>")
+
+            numero = Math.floor(numero / 10);
+        }
+        
+    </script> 
+    
+</body>
+</html>
