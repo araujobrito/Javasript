@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 8 </title>
+</head>
+<body>
+    <script> 
+        const numeros = [];
+        let somaPares = 0, somaImpares = 0;
+        let contPares = 0, contImpares = 0;
+
+    for (let i = 0; i < 5; i++) {
+    let numero = parseInt(prompt("Digite um número: "));
+    numeros.push(numero);
+    }
+
+    for (let i = 0; i < numeros.length; i++) {
+    if (numeros[i] % 2 === 0) {
+        somaPares += numeros[i];
+        contPares++;
+    } else {
+        somaImpares += numeros[i];
+        contImpares++;
+             }
+    }
+
+    if (contPares > 0) {
+    document.write("Média dos pares: " + (somaPares / contPares) + "<br>");
+
+    } else {
+    document.write("Nenhum número par.<br>");
+        }
+
+    if (contImpares > 0) {
+    document.write("Média dos ímpares: " + (somaImpares / contImpares));
+
+        } else {
+    document.write("Nenhum número ímpar.");
+        }
+        
+    </script>
+</body>
+</html>

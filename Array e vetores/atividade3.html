@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 3</title>
+</head>
+<body>
+    <script>
+        const numeros = [];
+        let soma = 0;
+
+        for (let i = 0; i < 7; i++){
+            let numero = parseInt(prompt("Digite um número: "))
+            numeros.push(numero);
+        }
+
+        for (let i = 0; i < numeros.lenght; i++){
+            soma += numeros[i]; 
+        } 
+
+        let media = soma / numeros.lenght;
+        document.write("Média: " + media + "<br>");
+
+        
+    </script>
+</body>
+</html>

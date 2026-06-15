@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 13</title>
+</head>
+<body>
+    <script>
+
+    const numeros = [];
+    let contIntervalo = 0;
+
+    for (let i = 0; i < 10; i++) {
+    let numero = parseInt(prompt("Digite um número: "));
+    numeros.push(numero);
+    }
+
+    for (let i = 0; i < numeros.length; i++) {
+    if (numeros[i] >= 10 && numeros[i] <= 50) {
+        contIntervalo++;
+         }
+    }
+
+    document.write("Números entre 10 e 50: " + contIntervalo);
+    
+    </script>
+</body>
+</html>

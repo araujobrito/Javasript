@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Média de 5 Números Inteiros </title>
+</head>
+<body>
+
+   <h1> Média de 5 Números Inteiros </h1> 
+   
+    <script>
+
+       let contador = 1 
+        let soma = 0
+
+        while(contador <= 5){
+
+            media = (soma / 5)
+            
+            let numero = Number(prompt("Digite cinco valores aqui: "))
+
+            soma = soma + numero
+            contador++
+        }
+        
+        document.write("O valor da média é: " + media + "<br>")
+
+    </script>
+</body>
+</html>
